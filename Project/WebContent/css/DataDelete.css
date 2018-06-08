@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+div1 {
+	color: #ffffff;
+	float: right;
+}
+body {
+	padding-top: 70px;
+	background: transparent;
+	background-color: #fff0;
+	text-align:center;
+	margin:auto;
+}
+h1{
+	font-weight:800;
+	padding-top: 200px;
+	padding-bottom:20px;
+}
+p{
+	font-size:25pt;
+}
+.button1{
+	width: 150px;
+	padding: .50rem 1.00rem;
+	padding-top: 0.50rem;
+	padding-right: 1.00rem;
+	padding-bottom: 0.50rem;
+	padding-left: 1.00rem;
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin:10px 50px;
+    border-radius: 5px; /*角丸*/
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.button1:hover{
+     background-color: #ff0000; /*ボタン色*/
+}
+
+.button2{
+	width: 150px;
+	padding: .50rem 1.00rem;
+	padding-top: 0.50rem;
+	padding-right: 1.00rem;
+	padding-bottom: 0.50rem;
+	padding-left: 1.00rem;
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin:10px 50px;
+	 border-radius: 5px; /*角丸*/
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.button2:hover{
+     background-color: #0000ff; /*ボタン色*/
+}

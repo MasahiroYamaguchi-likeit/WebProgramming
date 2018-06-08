@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 70px;
+	background-image: url("../images/4ce7cafd21b4a7dad8996fecb4874bea_t.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+
+div1 {
+	color: #ffffff;
+	float: right;
+}
+
+table {
+	width: 1200px;
+	height: auto;
+}
+
+tr {
+	height: 100px;
+}
+
+th {
+	font-size: 25pt;
+	text-shadow: 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+td {
+	font-size: 18pt;
+}

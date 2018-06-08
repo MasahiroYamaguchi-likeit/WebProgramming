@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+div1 {
+	color: #ffffff;
+	float: right;
+}
+
+body {
+	padding-top: 70px;
+	background: transparent;
+	background-color: #fff0;
+	text-align: center;
+	background-image: url("../images/watermark2.jpg");
+	background-repeat: repeat;
+}
+
+table {
+	width: 800px;
+	height: auto;
+	margin:auto;
+}
+
+tr {
+	height: 100px;
+}
+
+th {
+	font-size: 25pt;
+	text-shadow: 5px -1px rgba(0, 0, 0, 0.3);
+	background-color:#c5efee8f
+}
+
+td {
+	font-size: 15pt;
+	background-color:#85e0c78f
+}
+h1{
+	font-weight: 700;
+}
+
+.wrapper {
+	margin:15px 450px 0 35px;
+}
+.update{
+	margin:15px 0 0 auto;
+	width:150px
+}
+.button1 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+}
+
+.button {
+	width: 50px;
+	padding: .25rem 0.50rem;
+	padding-top: 0.25rem;
+	padding-right: 0.50rem;
+	padding-bottom: 0.25rem;
+	padding-left: 0.50rem;
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin-right:20px;
+}

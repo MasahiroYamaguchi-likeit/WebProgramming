@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ユーザー</title>
+<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/Isometric.css">
+<link rel="stylesheet" type="text/css" href="css/UserList.css">
+<link rel="stylesheet" type="text/css" href="css/button.css">
+</head>
+<body>
+	<header>
+		<nav
+			class="navbar navbar-expand-md navbar-dark bg-dark fixed-top justify-content-end">
+			<form class="form-inline my-2 my-lg-0">
+				<div1>"UserNm"さん
+				<button class="btn btn-outline-success my-2 my-sm-0"
+					onClick="location.href='file:///C:/Users/%E9%9B%85%E5%AF%9B/Documents/WebProgramming/Mock/login.html'"
+					type="button" value="logout">ログアウト</button>
+				</div1>
+			</form>
+		</nav>
+	</header>
+
+	<main role="main" class="container">
+
+	<div class="starter-template">
+		<h1>ユーザー一覧</h1>
+	</div>
+	<div class="wrapper">
+		<a href="#" class="button"
+			onClick="location.href='file:///C:/Users/%E9%9B%85%E5%AF%9B/Documents/WebProgramming/Mock/NewUser.html'">新規登録</a>
+	</div>
+	<div class="form-group row">
+		<label for="inputUserID" class="col-sm-2 col-form-label">ユーザーID</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="inputUserID"
+				placeholder="UserID">
+		</div>
+	</div>
+
+	<div class="form-group row">
+		<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+		<div class="col-sm-10">
+			<input type="password" class="form-control" id="inputPassword"
+				placeholder="Password">
+		</div>
+	</div>
+
+	<div class="form-group row">
+		<label for="inputDate" class="col-sm-2 col-form-label">日付</label>
+		<div class="col-sm-10">
+			<input type="date" id="inputDate" required> ～ <input
+				type="date" name="inputDate2" required>
+		</div>
+	</div>
+	<div class="sub">
+		<input type="submit" value=" 検 索 " name="">
+	</div>
+	</main>
+
+	<p class="s3"></p>
+
+	<div>
+		<table class="tbl">
+			<tr class="t1">
+				<th>UserID</th>
+				<th>ユーザー</th>
+				<th>生年月日</th>
+			</tr>
+			<tr>
+				<td>"UserID000000"</td>
+				<td>"UserNm "</td>
+				<td>"UserDateYYYY MM DD"</td>
+			</tr>
+			<tr>
+				<td>"UserID2"</td>
+				<td>"UserNm2</td>
+				<td>UserDate2</td>
+			</tr>
+			<tr>
+				<td>"UserID3"</td>
+				<td>"UserNm3"</td>
+				<td>"UserDate"</td>
+			</tr>
+		</table>
+		<p class="select">
+			<select name="UserID">
+				<option value="UserID">UserID000000</option>
+			</select> <a href="#"
+				onClick="location.href='file:///C:/Users/%E9%9B%85%E5%AF%9B/Documents/WebProgramming/Mock/Userdetail.html'"
+				class="isometric"> <span class="iconback isfb"><i
+					class="de de-details"></i></span><span class="btnttl">詳細</span>
+			</a> <a href="#"
+				onClick="location.href='file:///C:/Users/%E9%9B%85%E5%AF%9B/Documents/WebProgramming/Mock/UserUpdate.html'"
+				class="isometric"> <span class="iconback isfdly"><i
+					class="up up-update"></i></span><span class="btnttl">更新</span>
+			</a> <a href="#"
+				onClick="location.href='file:///C:/Users/%E9%9B%85%E5%AF%9B/Documents/WebProgramming/Mock/DataDelete.html'"
+				class="isometric"> <span class="iconback ispkt"><i
+					class="de de-get-delete"></i></span><span class="btnttl">削除</span>
+			</a>
+		</p>
+
+	</div>
+</body>
+
+</html>

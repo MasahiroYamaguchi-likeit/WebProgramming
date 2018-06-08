@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+html {
+	background: url("../images/f4b78ba9651cd4492592d42edb70d32d_t.jpeg") no-repeat
+		center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	padding-top: 70px;
+	background: transparent;
+	background-color: #fff0;
+}
+
+div1 {
+	color: #ffffff;
+	float: right;
+}
+
+h1 {
+	text-align: center;
+	height: 100px;
+}
+
+div.wrapper {
+	text-align: right;
+}
+
+div.form-group.row {
+	height: 50px;
+	width: 870px;
+}
+
+label.col-sm-2.col-form-label {
+	font-weight: 500;
+	font-size: 17pt;
+}
+
+div.col-sm-10 {
+	text-align: left;
+	left: 20%;
+}
+
+div.sub {
+	text-align: right;
+	width: auto;
+	height: 50px;
+}
+
+p.s3 {
+	border-bottom: solid;
+}
+
+table.tbl {
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	font-weight: bold;
+	color: #000000; /*文字色*/
+	border: solid 3px #000000; /*線*/
+	border-radius: 10px;
+	background-color: #05c7f36e;
+	position: relative;
+	left: 10%;
+	width: 80%;
+	height: 50%;
+	text-align: center;
+}
+
+tr.t1 {
+	border-collapse: collapse;
+	border: solid 5px #000000;
+	font-size: 16pt;
+}
+
+tr {
+	height: 50px;
+}
+
+.box1 {
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	font-weight: bold;
+	border: solid 3px #000000;
+}
+
+.box1 p {
+	margin: 0;
+	padding: 0;
+}
+
+.select {
+	text-align: right;
+	position: relative;
+	right: 10%;
+}

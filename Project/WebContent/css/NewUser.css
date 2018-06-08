@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+div1 {
+	color: #ffffff;
+	float: right;
+}
+
+h1 {
+	width: 900px; /* ページの幅 */
+	margin: 20px auto 0 auto; /* センタリング */
+	padding-top: 30px;
+	height: 80px;
+	text-align: center;
+	background: #eaf4ffeb;
+	color: #000000;
+	text-shadow: 2px 2px #fff, 5px 5px rgba(1, 3, 70, 0.4);
+}
+
+body {
+	background-image: url("../images/134297m.jpg");
+	background-repeat: repeat;
+	padding-top: 35px;
+	padding: transparent;
+	padding-color: #fff0;
+}
+
+div.font {
+	width: 900px; /* ページの幅 */
+	margin: 0 auto; /* センタリング */
+	display: flex;
+	background: #5da4f1f2;
+	padding-top: 30px;
+}
+
+div.Newdata {
+	width: 200px;
+}
+
+p {
+	margin: 0 0 90px 30px;
+	width: 150px;
+}
+
+div.form-position {
+	width: 600px;
+}
+
+#form {
+	position: relative;
+	left: 100px;
+	width: 400px;
+}
+
+#date {
+	position: relative;
+	left: 100px;
+}
+
+input.Registration {
+	width: 150px;
+	padding: .75rem 1.25rem;
+	padding-top: 0.75rem;
+	padding-right: 1.25rem;
+	padding-bottom: 0.75rem;
+	padding-left: 1.25rem;
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+
+.button1 {
+	margin: 0 auto;
+}
+
